@@ -1,0 +1,36 @@
+C:\SKILLBOX\C#\pract\C--I22\les12\OOP2\OOP2\bin\Debug\OOP2.exe.config
+C:\SKILLBOX\C#\pract\C--I22\les12\OOP2\OOP2\bin\Debug\OOP2.exe
+C:\SKILLBOX\C#\pract\C--I22\les12\OOP2\OOP2\bin\Debug\OOP2.pdb
+C:\SKILLBOX\C#\pract\C--I22\les12\OOP2\OOP2\obj\Debug\OOP2.csproj.AssemblyReference.cache
+C:\SKILLBOX\C#\pract\C--I22\les12\OOP2\OOP2\obj\Debug\MainWindow.g.cs
+C:\SKILLBOX\C#\pract\C--I22\les12\OOP2\OOP2\obj\Debug\App.g.cs
+C:\SKILLBOX\C#\pract\C--I22\les12\OOP2\OOP2\obj\Debug\OOP2_MarkupCompile.cache
+C:\SKILLBOX\C#\pract\C--I22\les12\OOP2\OOP2\obj\Debug\OOP2_MarkupCompile.lref
+C:\SKILLBOX\C#\pract\C--I22\les12\OOP2\OOP2\obj\Debug\MainWindow.baml
+C:\SKILLBOX\C#\pract\C--I22\les12\OOP2\OOP2\obj\Debug\OOP2.g.resources
+C:\SKILLBOX\C#\pract\C--I22\les12\OOP2\OOP2\obj\Debug\OOP2.Properties.Resources.resources
+C:\SKILLBOX\C#\pract\C--I22\les12\OOP2\OOP2\obj\Debug\OOP2.csproj.GenerateResource.cache
+C:\SKILLBOX\C#\pract\C--I22\les12\OOP2\OOP2\obj\Debug\OOP2.csproj.CoreCompileInputs.cache
+C:\SKILLBOX\C#\pract\C--I22\les12\OOP2\OOP2\obj\Debug\OOP2.exe
+C:\SKILLBOX\C#\pract\C--I22\les12\OOP2\OOP2\obj\Debug\OOP2.pdb
+C:\SKILLBOX\C#\pract\C--I22\les12\OOP2\OOP2\obj\Debug\WorkWindow.g.cs
+C:\SKILLBOX\C#\pract\C--I22\les12\OOP2\OOP2\obj\Debug\WorkWindow.baml
+C:\SKILLBOX\C#\pract\C--I22\les12 — копия\OOP2\OOP2\bin\Debug\OOP2.exe.config
+C:\SKILLBOX\C#\pract\C--I22\les12 — копия\OOP2\OOP2\bin\Debug\OOP2.exe
+C:\SKILLBOX\C#\pract\C--I22\les12 — копия\OOP2\OOP2\bin\Debug\OOP2.pdb
+C:\SKILLBOX\C#\pract\C--I22\les12 — копия\OOP2\OOP2\obj\Debug\OOP2.csproj.AssemblyReference.cache
+C:\SKILLBOX\C#\pract\C--I22\les12 — копия\OOP2\OOP2\obj\Debug\MainWindow.g.cs
+C:\SKILLBOX\C#\pract\C--I22\les12 — копия\OOP2\OOP2\obj\Debug\WorkWindow.g.cs
+C:\SKILLBOX\C#\pract\C--I22\les12 — копия\OOP2\OOP2\obj\Debug\App.g.cs
+C:\SKILLBOX\C#\pract\C--I22\les12 — копия\OOP2\OOP2\obj\Debug\OOP2_MarkupCompile.cache
+C:\SKILLBOX\C#\pract\C--I22\les12 — копия\OOP2\OOP2\obj\Debug\OOP2_MarkupCompile.lref
+C:\SKILLBOX\C#\pract\C--I22\les12 — копия\OOP2\OOP2\obj\Debug\MainWindow.baml
+C:\SKILLBOX\C#\pract\C--I22\les12 — копия\OOP2\OOP2\obj\Debug\WorkWindow.baml
+C:\SKILLBOX\C#\pract\C--I22\les12 — копия\OOP2\OOP2\obj\Debug\OOP2.g.resources
+C:\SKILLBOX\C#\pract\C--I22\les12 — копия\OOP2\OOP2\obj\Debug\OOP2.Properties.Resources.resources
+C:\SKILLBOX\C#\pract\C--I22\les12 — копия\OOP2\OOP2\obj\Debug\OOP2.csproj.GenerateResource.cache
+C:\SKILLBOX\C#\pract\C--I22\les12 — копия\OOP2\OOP2\obj\Debug\OOP2.csproj.CoreCompileInputs.cache
+C:\SKILLBOX\C#\pract\C--I22\les12 — копия\OOP2\OOP2\obj\Debug\OOP2.exe
+C:\SKILLBOX\C#\pract\C--I22\les12 — копия\OOP2\OOP2\obj\Debug\OOP2.pdb
+C:\SKILLBOX\C#\pract\C--I22\les12 — копия\OOP2\OOP2\obj\Debug\Window2.g.cs
+C:\SKILLBOX\C#\pract\C--I22\les12 — копия\OOP2\OOP2\obj\Debug\Window2.baml

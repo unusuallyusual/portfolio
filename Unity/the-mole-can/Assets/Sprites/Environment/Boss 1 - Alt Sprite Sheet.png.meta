@@ -1,0 +1,357 @@
+fileFormatVersion: 2
+guid: 265df482cb66dd64a84959ea6bf97851
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Boss 1 - Alt Sprite Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 51
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c80bdcd9ee4fdfc478bcc204a3fce4ce
+      internalID: 1253118931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 1 - Alt Sprite Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 5
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99892d25646699a4d8704ba652bc4237
+      internalID: 1628206599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 1 - Alt Sprite Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 5
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c8ecff774791224cad807b1c121db15
+      internalID: 1493634890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 1 - Alt Sprite Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 5
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06a736ff7e0e47945b975783e1c4959e
+      internalID: -1044186232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 1 - Alt Sprite Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 5
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9793935d4d72fc6459b447e8fc06d998
+      internalID: 61157703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 1 - Alt Sprite Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 6
+        width: 3
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9c33e0fefd71004c88dac3f468068b8
+      internalID: -1637397979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 1 - Alt Sprite Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 4
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af7c79bfd5e187c46935a9cc1684752f
+      internalID: -1266141360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 1 - Alt Sprite Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 2
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c5cc1abbe3f86546b0492c3b883c2c4
+      internalID: -2118848315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 1 - Alt Sprite Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d071330101461fe4f9f080334ff5d698
+      internalID: -1379318714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Boss 1 - Alt Sprite Sheet_36: 1728106515
+      Boss 1 - Alt Sprite Sheet_27: 1997182456
+      Boss 1 - Alt Sprite Sheet_2: 440431068
+      Boss 1 - Alt Sprite Sheet_39: 61157703
+      Boss 1 - Alt Sprite Sheet_43: -1379318714
+      Boss 1 - Alt Sprite Sheet_22: 1193234676
+      Boss 1 - Alt Sprite Sheet_29: 1399235950
+      Boss 1 - Alt Sprite Sheet_7: 810878304
+      Boss 1 - Alt Sprite Sheet_37: 1493634890
+      Boss 1 - Alt Sprite Sheet_0: -374869628
+      Boss 1 - Alt Sprite Sheet_21: -2070397082
+      Boss 1 - Alt Sprite Sheet_42: -2118848315
+      Boss 1 - Alt Sprite Sheet_17: 1264372877
+      Boss 1 - Alt Sprite Sheet_13: 1608058211
+      Boss 1 - Alt Sprite Sheet_12: 1569494552
+      Boss 1 - Alt Sprite Sheet_33: -890355614
+      Boss 1 - Alt Sprite Sheet_41: -1266141360
+      Boss 1 - Alt Sprite Sheet_40: -1637397979
+      Boss 1 - Alt Sprite Sheet_30: -1657184334
+      Boss 1 - Alt Sprite Sheet_38: -1044186232
+      Boss 1 - Alt Sprite Sheet_5: 341980271
+      Boss 1 - Alt Sprite Sheet_4: 422747014
+      Boss 1 - Alt Sprite Sheet_23: -776852459
+      Boss 1 - Alt Sprite Sheet_31: 969212469
+      Boss 1 - Alt Sprite Sheet_1: 880117299
+      Boss 1 - Alt Sprite Sheet_9: -2084012704
+      Boss 1 - Alt Sprite Sheet_3: 607312575
+      Boss 1 - Alt Sprite Sheet_10: 1291507190
+      Boss 1 - Alt Sprite Sheet_20: -337864584
+      Boss 1 - Alt Sprite Sheet_44: 1463278250
+      Boss 1 - Alt Sprite Sheet_26: 1649764948
+      Boss 1 - Alt Sprite Sheet_34: -341109108
+      Boss 1 - Alt Sprite Sheet_24: 763621173
+      Boss 1 - Alt Sprite Sheet_16: -1798741364
+      Boss 1 - Alt Sprite Sheet_45: 835764690
+      Boss 1 - Alt Sprite Sheet_19: 1341472789
+      Boss 1 - Alt Sprite Sheet_8: 902421922
+      Boss 1 - Alt Sprite Sheet_15: -1057467253
+      Boss 1 - Alt Sprite Sheet_32: 1253118931
+      Boss 1 - Alt Sprite Sheet_14: -1877622604
+      Boss 1 - Alt Sprite Sheet_18: 1007093537
+      Boss 1 - Alt Sprite Sheet_6: -1121529316
+      Boss 1 - Alt Sprite Sheet_35: 1628206599
+      Boss 1 - Alt Sprite Sheet_11: 1933247714
+      Boss 1 - Alt Sprite Sheet_25: -1114767482
+      Boss 1 - Alt Sprite Sheet_28: 679269580
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

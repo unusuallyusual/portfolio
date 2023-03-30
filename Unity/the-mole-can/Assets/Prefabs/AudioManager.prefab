@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1468748634270433247
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5357832662935729505}
+  - component: {fileID: 2406041006948248849}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5357832662935729505
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1468748634270433247}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 299.95312, y: -76.60846, z: -17.168308}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2406041006948248849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1468748634270433247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b531040a142a384a85427dac2efbbb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Music
+    clip: {fileID: 8300000, guid: bdd923c56ebe82647b7b4493b63a536f, type: 3}
+    volume: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: PlayerShooting
+    clip: {fileID: 8300000, guid: 63faae08596ba2f46ba2fefe8442845e, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: PlayerCollision
+    clip: {fileID: 8300000, guid: 407f4693cc8ddd044b6862309b6ac18c, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: GameOver
+    clip: {fileID: 8300000, guid: a3e673412c8a7b14aa2806b54e39b19f, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: FinishGame
+    clip: {fileID: 8300000, guid: bf83bbfcd92870a4dbcc393a88335dd7, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Coin
+    clip: {fileID: 8300000, guid: edde30aa771c1f6439ae3ded76928ca0, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: BulletExplosion
+    clip: {fileID: 8300000, guid: 7bc92ad021a1cfc4dae346edb9a78e6a, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: BoxExplosion
+    clip: {fileID: 8300000, guid: 207528fa7b83ea34696e50cedd625e51, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: +Health
+    clip: {fileID: 8300000, guid: 627e0aef041a0434397d282362b8c960, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: EnemyShooting
+    clip: {fileID: 8300000, guid: ce511e7751273634387f92a9596c5776, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: EnemysLeaderShooting
+    clip: {fileID: 8300000, guid: b8356a5639ce44046ad7567c0ea0d68d, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}

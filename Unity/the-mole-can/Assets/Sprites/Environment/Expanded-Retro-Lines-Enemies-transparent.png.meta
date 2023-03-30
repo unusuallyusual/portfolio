@@ -1,0 +1,1418 @@
+fileFormatVersion: 2
+guid: 190f8b9c6fab6834e8726d6d3b0ad232
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Expanded-Retro-Lines-Enemies-transparent_11
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 256
+        width: 12
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8c1e3bc4a994c9489be4142353535d0
+      internalID: -1714608103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expanded-Retro-Lines-Enemies-transparent_12
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 256
+        width: 12
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a09604fc93bde4b9cb662a8ec697dd
+      internalID: 809431771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expanded-Retro-Lines-Enemies-transparent_13
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 256
+        width: 12
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 159f9d096747d8246862cee04f4d797a
+      internalID: -973590111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expanded-Retro-Lines-Enemies-transparent_14
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 257
+        width: 12
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 346801580fca6474fb094f7ff2b27fe7
+      internalID: -1135305685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expanded-Retro-Lines-Enemies-transparent_15
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 257
+        width: 12
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc82975956286f14da9fb97c8a40fa46
+      internalID: 1042333653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expanded-Retro-Lines-Enemies-transparent_20
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 240
+        width: 7
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bf973718e6a1994ab4bf867551f0dba
+      internalID: -760266687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expanded-Retro-Lines-Enemies-transparent_21
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 241
+        width: 7
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 118e1a290e1a81542872ce8a0816ccf8
+      internalID: -950731041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expanded-Retro-Lines-Enemies-transparent_22
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 243
+        width: 7
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc062c2f88cf7a0409107c70d11a9c76
+      internalID: 1309766034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expanded-Retro-Lines-Enemies-transparent_23
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 242
+        width: 7
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60e15a5068d645f47bf1ca773e650c39
+      internalID: 1316622192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expanded-Retro-Lines-Enemies-transparent_28
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 226
+        width: 12
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c28f8399f2a244a428a0119706f47a92
+      internalID: -1092806767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expanded-Retro-Lines-Enemies-transparent_29
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 227
+        width: 14
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 689b3653a0b94f14481389d455823df5
+      internalID: -1780359963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expanded-Retro-Lines-Enemies-transparent_30
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 228
+        width: 14
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96e44cec31139f0469ce1d01dccdc549
+      internalID: -724704395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expanded-Retro-Lines-Enemies-transparent_31
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 227
+        width: 14
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d79f5466dbf4db4d8e3e2e55ce3f715
+      internalID: -267659105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expanded-Retro-Lines-Enemies-transparent_35
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 208
+        width: 14
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52ed27f4897ebd54da7cee2f8eeb39e8
+      internalID: 1539740928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expanded-Retro-Lines-Enemies-transparent_36
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 208
+        width: 13
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75ed936ae8f8866459121abcf4f0ca6e
+      internalID: -190872085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expanded-Retro-Lines-Enemies-transparent_37
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 208
+        width: 14
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ad01c479561da046bdc2cb12ba6358b
+      internalID: 2093647557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expanded-Retro-Lines-Enemies-transparent_38
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 208
+        width: 13
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4baa573e0d9641e458875b115f9c69c9
+      internalID: 1306324760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expanded-Retro-Lines-Enemies-transparent_39
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 208
+        width: 14
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c0c2e4170c1a1c409f3b985a8b0b3a0
+      internalID: -558143355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expanded-Retro-Lines-Enemies-transparent_43
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 192
+        width: 8
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a24704dc462306a47ae87b78b7a23a33
+      internalID: 1722003182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expanded-Retro-Lines-Enemies-transparent_44
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 193
+        width: 9
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0e288942cc959d4ba787ee4bb18e5d1
+      internalID: -1123305137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expanded-Retro-Lines-Enemies-transparent_45
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 192
+        width: 15
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3433a259108a0a04588beb3c8e742478
+      internalID: -1056591033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expanded-Retro-Lines-Enemies-transparent_46
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 194
+        width: 12
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18b4f54f89b667a47b26e55d6160b006
+      internalID: 166238328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expanded-Retro-Lines-Enemies-transparent_47
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 194
+        width: 13
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acbc33428f6fa2d4db48ba15f7d5df32
+      internalID: 2077525628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expanded-Retro-Lines-Enemies-transparent_51
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 176
+        width: 13
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4f96e9804075e948b7fc76717e43b3a
+      internalID: 752600994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expanded-Retro-Lines-Enemies-transparent_52
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 161
+        width: 12
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fbf5d23d9b3ec943aaaf60ac6f6b59c
+      internalID: 1022537919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expanded-Retro-Lines-Enemies-transparent_53
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 176
+        width: 13
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0491bc83734cf594fb17637b97873352
+      internalID: -741234211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expanded-Retro-Lines-Enemies-transparent_54
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 176
+        width: 13
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a1224ba83b253a43b106c199f014d9e
+      internalID: -1341044541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expanded-Retro-Lines-Enemies-transparent_55
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 176
+        width: 13
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f2b126a902b3dd4fb03b3c8b291785b
+      internalID: -2076083852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expanded-Retro-Lines-Enemies-transparent_56
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 176
+        width: 20
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1853e3ff5c2efaa44a97a14ee99cc4ce
+      internalID: 998808706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expanded-Retro-Lines-Enemies-transparent_57
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 176
+        width: 13
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f438d08c0a90d9f46a2b17a03d522d36
+      internalID: 1464458558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expanded-Retro-Lines-Enemies-transparent_61
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 162
+        width: 14
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51429bf746e6e1d4094f5948751a4aeb
+      internalID: -1877550534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expanded-Retro-Lines-Enemies-transparent_62
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 163
+        width: 14
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c74855a8b1722214c892a3d2229dc469
+      internalID: 690387609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expanded-Retro-Lines-Enemies-transparent_63
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 162
+        width: 14
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3cfcacb96ed62a4cabe20cd42ed85f3
+      internalID: -2117422349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expanded-Retro-Lines-Enemies-transparent_64
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 161
+        width: 12
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4fc074545ee2504e855c79a54a3ef4f
+      internalID: -381933983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expanded-Retro-Lines-Enemies-transparent_67
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 144
+        width: 14
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ff086af2d1efef4f882e2acfaadbe7d
+      internalID: -1165864677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expanded-Retro-Lines-Enemies-transparent_68
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 144
+        width: 14
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b218e95f4b0835f46892c0b98c2cf68e
+      internalID: 1814661581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expanded-Retro-Lines-Enemies-transparent_69
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 144
+        width: 14
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dec26cb60b6fc3d4684b26efce2fa84a
+      internalID: -438488085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expanded-Retro-Lines-Enemies-transparent_70
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 146
+        width: 14
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16fbb0adc26b4414ebc5a88de8488812
+      internalID: 623330777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expanded-Retro-Lines-Enemies-transparent_71
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 144
+        width: 14
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e57f3436ccab1b0408142cfb00e18745
+      internalID: 1856409882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expanded-Retro-Lines-Enemies-transparent_72
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 146
+        width: 14
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32b87fc26b8a16941bdcc276e713b5a5
+      internalID: 154507490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expanded-Retro-Lines-Enemies-transparent_75
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 128
+        width: 5
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6be536af00152554bacb69397479c700
+      internalID: -1528901394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expanded-Retro-Lines-Enemies-transparent_76
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 128
+        width: 10
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed2709b4334b77b4eb6bee8069d55e81
+      internalID: -361939051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expanded-Retro-Lines-Enemies-transparent_77
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 128
+        width: 10
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27511addc58534d4bb2702a8def52d0b
+      internalID: -1604824180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expanded-Retro-Lines-Enemies-transparent_78
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 128
+        width: 10
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 692077306f3658f439c75b16c202af50
+      internalID: 496254387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expanded-Retro-Lines-Enemies-transparent_81
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 112
+        width: 15
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 282f1ba71d955ee408aaf261ca097eca
+      internalID: 1653128623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expanded-Retro-Lines-Enemies-transparent_82
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 112
+        width: 15
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 653909587b66b2f43a3d9c6b687c52ee
+      internalID: -1028259080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expanded-Retro-Lines-Enemies-transparent_83
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 112
+        width: 15
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a1c5ce51543d843a5fb00e55d7e893
+      internalID: -1033267835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expanded-Retro-Lines-Enemies-transparent_84
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 112
+        width: 15
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b86115e2cce49ea41b4d06df078275c2
+      internalID: 908306222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expanded-Retro-Lines-Enemies-transparent_85
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 112
+        width: 12
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2180d45bca71cfb4087b8fd127ea4fcf
+      internalID: 878485188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expanded-Retro-Lines-Enemies-transparent_93
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 112
+        width: 16
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f9c5e18eb116e7428013cae0a1c48ca
+      internalID: -1158673127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expanded-Retro-Lines-Enemies-transparent_99
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 80
+        width: 14
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb813e46b524a2541bf49b29e5c399cb
+      internalID: 1335539532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expanded-Retro-Lines-Enemies-transparent_100
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 80
+        width: 14
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6ef0eeee889c5b45983768d184d4868
+      internalID: -1120647251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expanded-Retro-Lines-Enemies-transparent_101
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 80
+        width: 14
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a6feaf731e462946b18435c3cc54d0e
+      internalID: 1148110355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expanded-Retro-Lines-Enemies-transparent_102
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 80
+        width: 14
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b47001353661604ea69055f156d74c0
+      internalID: 215236520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expanded-Retro-Lines-Enemies-transparent_103
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 80
+        width: 14
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a652d77bd42e2764abcf5045bd21d805
+      internalID: -2043777058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expanded-Retro-Lines-Enemies-transparent_104
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 80
+        width: 14
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e6bf3ef840023148a3849f4253d872d
+      internalID: 2007093532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Expanded-Retro-Lines-Enemies-transparent_93: -1158673127
+      Expanded-Retro-Lines-Enemies-transparent_114: -1287237318
+      Expanded-Retro-Lines-Enemies-transparent_41: 166101756
+      Expanded-Retro-Lines-Enemies-transparent_50: 2085583676
+      Expanded-Retro-Lines-Enemies-transparent_7: -587154254
+      Expanded-Retro-Lines-Enemies-transparent_78: 496254387
+      Expanded-Retro-Lines-Enemies-transparent_24: -2042816616
+      Expanded-Retro-Lines-Enemies-transparent_56: 998808706
+      Expanded-Retro-Lines-Enemies-transparent_46: 166238328
+      Expanded-Retro-Lines-Enemies-transparent_91: 1993894607
+      Expanded-Retro-Lines-Enemies-transparent_54: -1341044541
+      Expanded-Retro-Lines-Enemies-transparent_35: 1539740928
+      Expanded-Retro-Lines-Enemies-transparent_85: 878485188
+      Expanded-Retro-Lines-Enemies-transparent_6: 826779161
+      Expanded-Retro-Lines-Enemies-transparent_70: 623330777
+      Expanded-Retro-Lines-Enemies-transparent_31: -267659105
+      Expanded-Retro-Lines-Enemies-transparent_55: -2076083852
+      Expanded-Retro-Lines-Enemies-transparent_51: 752600994
+      Expanded-Retro-Lines-Enemies-transparent_66: 837852695
+      Expanded-Retro-Lines-Enemies-transparent_29: -1780359963
+      Expanded-Retro-Lines-Enemies-transparent_84: 908306222
+      Expanded-Retro-Lines-Enemies-transparent_19: -580755270
+      Expanded-Retro-Lines-Enemies-transparent_67: -1165864677
+      Expanded-Retro-Lines-Enemies-transparent_76: -361939051
+      Expanded-Retro-Lines-Enemies-transparent_117: 1996741972
+      Expanded-Retro-Lines-Enemies-transparent_106: -847351858
+      Expanded-Retro-Lines-Enemies-transparent_39: -558143355
+      Expanded-Retro-Lines-Enemies-transparent_97: 1821849197
+      Expanded-Retro-Lines-Enemies-transparent_32: 960876258
+      Expanded-Retro-Lines-Enemies-transparent_5: -2043844613
+      Expanded-Retro-Lines-Enemies-transparent_27: -934645839
+      Expanded-Retro-Lines-Enemies-transparent_119: -2006757216
+      Expanded-Retro-Lines-Enemies-transparent_34: 1947366798
+      Expanded-Retro-Lines-Enemies-transparent_113: -1277752137
+      Expanded-Retro-Lines-Enemies-transparent_108: 1414129475
+      Expanded-Retro-Lines-Enemies-transparent_37: 2093647557
+      Expanded-Retro-Lines-Enemies-transparent_33: 1630869647
+      Expanded-Retro-Lines-Enemies-transparent_96: -650305215
+      Expanded-Retro-Lines-Enemies-transparent_65: 815217708
+      Expanded-Retro-Lines-Enemies-transparent_44: -1123305137
+      Expanded-Retro-Lines-Enemies-transparent_16: 1335207595
+      Expanded-Retro-Lines-Enemies-transparent_26: -59564317
+      Expanded-Retro-Lines-Enemies-transparent_118: 663883668
+      Expanded-Retro-Lines-Enemies-transparent_57: 1464458558
+      Expanded-Retro-Lines-Enemies-transparent_13: -973590111
+      Expanded-Retro-Lines-Enemies-transparent_71: 1856409882
+      Expanded-Retro-Lines-Enemies-transparent_25: 1111726458
+      Expanded-Retro-Lines-Enemies-transparent_79: 32308254
+      Expanded-Retro-Lines-Enemies-transparent_47: 2077525628
+      Expanded-Retro-Lines-Enemies-transparent_49: 1500934551
+      Expanded-Retro-Lines-Enemies-transparent_22: 1309766034
+      Expanded-Retro-Lines-Enemies-transparent_100: -1120647251
+      Expanded-Retro-Lines-Enemies-transparent_107: -435902583
+      Expanded-Retro-Lines-Enemies-transparent_86: -1598144533
+      Expanded-Retro-Lines-Enemies-transparent_1: -1293718907
+      Expanded-Retro-Lines-Enemies-transparent_75: -1528901394
+      Expanded-Retro-Lines-Enemies-transparent_110: 1038126488
+      Expanded-Retro-Lines-Enemies-transparent_9: -1719441027
+      Expanded-Retro-Lines-Enemies-transparent_58: 1198021402
+      Expanded-Retro-Lines-Enemies-transparent_60: 1305897077
+      Expanded-Retro-Lines-Enemies-transparent_59: -563890237
+      Expanded-Retro-Lines-Enemies-transparent_12: 809431771
+      Expanded-Retro-Lines-Enemies-transparent_8: -544741198
+      Expanded-Retro-Lines-Enemies-transparent_10: 1828389281
+      Expanded-Retro-Lines-Enemies-transparent_115: 1498049016
+      Expanded-Retro-Lines-Enemies-transparent_103: -2043777058
+      Expanded-Retro-Lines-Enemies-transparent_69: -438488085
+      Expanded-Retro-Lines-Enemies-transparent_42: 1423573093
+      Expanded-Retro-Lines-Enemies-transparent_15: 1042333653
+      Expanded-Retro-Lines-Enemies-transparent_20: -760266687
+      Expanded-Retro-Lines-Enemies-transparent_28: -1092806767
+      Expanded-Retro-Lines-Enemies-transparent_90: -336076995
+      Expanded-Retro-Lines-Enemies-transparent_14: -1135305685
+      Expanded-Retro-Lines-Enemies-transparent_45: -1056591033
+      Expanded-Retro-Lines-Enemies-transparent_89: -1405152507
+      Expanded-Retro-Lines-Enemies-transparent_3: 1331100470
+      Expanded-Retro-Lines-Enemies-transparent_80: 1524204637
+      Expanded-Retro-Lines-Enemies-transparent_94: 912480813
+      Expanded-Retro-Lines-Enemies-transparent_109: 1548298795
+      Expanded-Retro-Lines-Enemies-transparent_98: 1694558690
+      Expanded-Retro-Lines-Enemies-transparent_21: -950731041
+      Expanded-Retro-Lines-Enemies-transparent_2: 803003498
+      Expanded-Retro-Lines-Enemies-transparent_36: -190872085
+      Expanded-Retro-Lines-Enemies-transparent_38: 1306324760
+      Expanded-Retro-Lines-Enemies-transparent_43: 1722003182
+      Expanded-Retro-Lines-Enemies-transparent_101: 1148110355
+      Expanded-Retro-Lines-Enemies-transparent_64: -381933983
+      Expanded-Retro-Lines-Enemies-transparent_30: -724704395
+      Expanded-Retro-Lines-Enemies-transparent_68: 1814661581
+      Expanded-Retro-Lines-Enemies-transparent_72: 154507490
+      Expanded-Retro-Lines-Enemies-transparent_102: 215236520
+      Expanded-Retro-Lines-Enemies-transparent_112: -1068356079
+      Expanded-Retro-Lines-Enemies-transparent_105: 401839801
+      Expanded-Retro-Lines-Enemies-transparent_77: -1604824180
+      Expanded-Retro-Lines-Enemies-transparent_17: -2124650725
+      Expanded-Retro-Lines-Enemies-transparent_52: 1022537919
+      Expanded-Retro-Lines-Enemies-transparent_92: -1761096335
+      Expanded-Retro-Lines-Enemies-transparent_0: -1403052208
+      Expanded-Retro-Lines-Enemies-transparent_40: -99897530
+      Expanded-Retro-Lines-Enemies-transparent_81: 1653128623
+      Expanded-Retro-Lines-Enemies-transparent_116: -1075191707
+      Expanded-Retro-Lines-Enemies-transparent_53: -741234211
+      Expanded-Retro-Lines-Enemies-transparent_48: 191395529
+      Expanded-Retro-Lines-Enemies-transparent_87: 338481337
+      Expanded-Retro-Lines-Enemies-transparent_73: -450693792
+      Expanded-Retro-Lines-Enemies-transparent_88: -1192329711
+      Expanded-Retro-Lines-Enemies-transparent_95: -555829587
+      Expanded-Retro-Lines-Enemies-transparent_11: -1714608103
+      Expanded-Retro-Lines-Enemies-transparent_62: 690387609
+      Expanded-Retro-Lines-Enemies-transparent_63: -2117422349
+      Expanded-Retro-Lines-Enemies-transparent_83: -1033267835
+      Expanded-Retro-Lines-Enemies-transparent_23: 1316622192
+      Expanded-Retro-Lines-Enemies-transparent_4: 574998336
+      Expanded-Retro-Lines-Enemies-transparent_82: -1028259080
+      Expanded-Retro-Lines-Enemies-transparent_99: 1335539532
+      Expanded-Retro-Lines-Enemies-transparent_74: 256815256
+      Expanded-Retro-Lines-Enemies-transparent_111: -673947280
+      Expanded-Retro-Lines-Enemies-transparent_104: 2007093532
+      Expanded-Retro-Lines-Enemies-transparent_61: -1877550534
+      Expanded-Retro-Lines-Enemies-transparent_18: -784140711
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
