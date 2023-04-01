@@ -1,0 +1,9 @@
+alpha1 - walk
+alpha2 - run
+alpha3 - shoot
+alpha4 - attack
+alpha5 - jump
+alpha6 - dance
+alpha0 - die
+
+scroll - change gun
