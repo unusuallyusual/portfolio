@@ -35,14 +35,18 @@ public class PlayerTalking : MonoBehaviour
         if (other.gameObject.CompareTag("VillageScarecrow"))
             IsTalking(talk_3);
     }
-    public async void IsTalking(GameObject talk)
+    public void IsTalking(GameObject talk)
     {
         if (gameObject && healthObj.CurrentHealth > 0)
         {
             talk.SetActive(true);
-            await Task.Delay(4000);
-            if (gameObject && healthObj.CurrentHealth > 0)
-                talk.SetActive(false);
+            StartCoroutine(Talk(talk));
         }
+    }
+    IEnumerator Talk(GameObject talk)
+    {
+        yield return new WaitForSeconds(3f);
+        if (gameObject && healthObj.CurrentHealth > 0)
+            talk.SetActive(false);
     }
 }

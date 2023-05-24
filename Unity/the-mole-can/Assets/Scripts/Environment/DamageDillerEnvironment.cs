@@ -28,15 +28,15 @@ public class DamageDillerEnvironment : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
             if (hasPointEffector && transform.gameObject.CompareTag("Enemy") 
                 || hasPointEffector && transform.gameObject.CompareTag("EnemyBomb"))
-                CollisionEffect();
+                StartCoroutine(CollisionEffect());
     }
 
-    private async void CollisionEffect()
+    IEnumerator CollisionEffect()
     {
         pc2dEnvironment.isTrigger = true;
         pe2dEnvironment.enabled = true;
         pc2dEnvironment.isTrigger = false;
-        await Task.Delay(500);
+        yield return new WaitForSeconds(.5f);
         pe2dEnvironment.enabled = false;
     }
 }

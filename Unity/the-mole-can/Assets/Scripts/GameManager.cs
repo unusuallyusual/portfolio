@@ -2,12 +2,19 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
+using System.Runtime.InteropServices;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
+    [DllImport("__Internal")]
+    private static extern void ShowAdv();
+
+    [DllImport("__Internal")]
+    private static extern void AddLifeExtern();
+
     [SerializeField] private float maxTime;
 
     public float levelTime;
@@ -55,6 +62,7 @@ public class GameManager : MonoBehaviour
 
         sceneMusic.SetEffectsVolume(effectsVolume);
         sceneMusic.SetMusicVolume(musicVolume);
+        transform.parent = null;
     }
 
     private void Update()
@@ -74,9 +82,11 @@ public class GameManager : MonoBehaviour
     {
         PlayerPrefs.SetFloat("effectsVolume", sceneMusic.SoundEffectsVolume);
         PlayerPrefs.SetFloat("musicVolume", sceneMusic.MusicVolume);
+        ShowAdv();
     }
     public void BackToLevelGameMenuFromPause()
     {
+        ShowAdv();
         SceneManager.LoadScene(0);
     }
     public void BackToLevelGameMenuIfGameOver()
@@ -89,16 +99,19 @@ public class GameManager : MonoBehaviour
     public void AllOverAgain()
     {
         File.Delete(Environment.CurrentDirectory + "\\gameData.xml");
+        ShowAdv();
         SceneManager.LoadScene(0);
     }
     public void NextLevel()
     {
         LevelPoints(index);
         SavePoints();
+        ShowAdv();
         SceneManager.LoadScene(index + 1);
     }
     public void RestartLevelIfFromPause()
     {
+        ShowAdv();
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
     public void RestartLevelIfGameOver()
@@ -154,5 +167,15 @@ public class GameManager : MonoBehaviour
         data.Indicators[numScene].CountScore = dataReserve.Indicators[numScene].CountScore;
         data.Indicators[numScene].CountEnemies = dataReserve.Indicators[numScene].CountEnemies;
         data.Indicators[numScene].CountLifes = dataReserve.Indicators[numScene].CountLifes;
+    }
+
+    public void AddAdvLifeButton()
+    {
+        AddLifeExtern();
+    }
+
+    public void AddLife()
+    {
+        gamePlayersLifes++;
     }
 }

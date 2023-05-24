@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -29,7 +30,7 @@ public class ScoreNextLevelPanel : MonoBehaviour
     private void Update()
     {
         gameTimerText.text = gameM.gameTime.ToString();
-        levelTimerText.text = (gameM.MaxTime - gameM.levelTime).ToString();
+        levelTimerText.text = Math.Round((gameM.MaxTime - gameM.levelTime), 1).ToString();
         gameScore = gameM.gameScore;
         gameScoreText.text = gameScore.ToString();
         levelScoreText.text = gameM.levelScore.ToString() + "/" + maxLevelScore.ToString();

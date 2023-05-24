@@ -22,15 +22,15 @@ public class EnemyWeapon : MonoBehaviour
     {
         if (!hjWeaponComp.IsAlive)
         {
-            BrokeWeapon();
+            StartCoroutine(BrokeWeapon());
         }
     }
 
-    private async void BrokeWeapon()
+    IEnumerator BrokeWeapon()
     {
         hjWeapon.enabled = false;
         colliderWeapon.enabled = false;
-        await Task.Delay(2000);
+        yield return new WaitForSeconds(2f);
         gameObject.SetActive(false);
     }
 }

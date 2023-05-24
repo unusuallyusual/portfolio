@@ -3759,9 +3759,10 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "\u041C\u043E\u0433\u0451\u0442:\n\u272A \u0418\u0434\u0442\u0438 \u0432\u043F\u0440\u0430\u0432\u043E/\u0432\u043B\u0435\u0432\u043E
-    - \u0436\u043C\u0438 D (Right) / A (Left);    \n\u272A \u041F\u0440\u044B\u0433\u0430\u0442\u044C
-    - \u0436\u043C\u0438 W (Up);  \u272A \u0421\u0442\u0440\u0435\u043B\u044F\u0442\u044C
-    - \u0436\u043C\u0438 Space."
+    - \u0436\u043C\u0438 D (\u043D\u0430\u043F\u0440\u0430\u0432\u043E) / A (\u043D\u0430\u043B\u0435\u0432\u043E);   
+    \n\u272A \u041F\u0440\u044B\u0433\u0430\u0442\u044C - \u0436\u043C\u0438 W (\u0432\u0432\u0435\u0440\u0445); 
+    \u272A \u0421\u0442\u0440\u0435\u043B\u044F\u0442\u044C - \u0436\u043C\u0438
+    \u041F\u0440\u043E\u0431\u0435\u043B."
 --- !u!222 &747942742
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4056,7 +4057,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 800916229}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.7453, y: -5.1, z: 0}
+  m_LocalPosition: {x: 0.5991, y: -5.1, z: 0}
   m_LocalScale: {x: 0.35, y: 0.35, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4109,7 +4110,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
-  m_Size: {x: 42.03601, y: 9.070388}
+  m_Size: {x: 58.513504, y: 9.070388}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -5287,6 +5288,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1216026532}
+  - component: {fileID: 1216026533}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
@@ -5314,6 +5316,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1216026533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1216026531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c348c617b36a1204bb0181f0ffe5756b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1216545933
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14129,7 +14143,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1342015463}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.75, y: -5.0481, z: 0}
+  m_LocalPosition: {x: 0.7373, y: -5.0481, z: 0}
   m_LocalScale: {x: 0.3, y: 0.3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -14173,7 +14187,7 @@ BoxCollider2D:
     border: {x: 0.65053236, y: 0, z: 1.4311712, w: 0}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 40.032757, y: 9.929999}
-    newSize: {x: 48.994495, y: 8.232568}
+    newSize: {x: 67.05132, y: 8.232568}
     adaptiveTilingThreshold: 0.5
     drawMode: 2
     adaptiveTiling: 0
@@ -14227,7 +14241,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
-  m_Size: {x: 48.994495, y: 8.232568}
+  m_Size: {x: 67.05132, y: 8.232568}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -17122,6 +17136,7 @@ PolygonCollider2D:
     m_Paths:
     - - {x: -18.60451, y: 1.2830431}
       - {x: -18.603226, y: -9.285257}
+      - {x: -17.741894, y: -9.280896}
       - {x: -5.9280834, y: -9.221078}
       - {x: -5.8503976, y: 1.2364318}
 --- !u!4 &1999148832
@@ -17748,6 +17763,10 @@ PrefabInstance:
       propertyPath: m_AnchorMin.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 491335907292584629, guid: 1de363422b00ba7438486626273cc747, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 491335907432105445, guid: 1de363422b00ba7438486626273cc747, type: 3}
       propertyPath: maxLevelScore
       value: 50
@@ -18127,6 +18146,10 @@ PrefabInstance:
     - target: {fileID: 7512412700532771600, guid: 1de363422b00ba7438486626273cc747, type: 3}
       propertyPath: m_PreserveAspect
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7834277265600035220, guid: 1de363422b00ba7438486626273cc747, type: 3}
+      propertyPath: m_UpdateMode
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8731377892001427353, guid: 1de363422b00ba7438486626273cc747, type: 3}
       propertyPath: sounds.Array.data[1].volume

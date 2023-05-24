@@ -42,7 +42,7 @@ public class HealthPlayer : MonoBehaviour
             gameM.ChangeCurrentTime(gameM.CurrentTime - Time.deltaTime);
         if (gameM.CurrentTime <= 0)
         {
-            isDied(false);
+            StartCoroutine(IsDied(false));
             gameM.ChangeCurrentTime(0);
         }
 
@@ -54,46 +54,39 @@ public class HealthPlayer : MonoBehaviour
         if (other.gameObject.CompareTag("GameOver"))
         {
             currentHealth = 0;
-            isDied(IsAlive);
+            StartCoroutine(IsDied(IsAlive));
         }
 
         if (other.gameObject.CompareTag("Finish"))
         {
             IsFinish = true;
-            isFinished();
+            StartCoroutine(IsFinished());
         }
-    }
-
-    private async void isCollision()
-    {
-        srPlayer.color = new Color(1, 1, 1, 0.5f);
-        await Task.Delay(300);
-        srPlayer.color = new Color(1, 1, 1, 1);
-        await Task.Delay(300);
-        srPlayer.color = new Color(1, 1, 1, 0.5f);
-        await Task.Delay(300);
-        srPlayer.color = new Color(1, 1, 1, 1);
     }
 
     public void TakeDamage(float damage)
     {
         currentHealth -= damage;
         AudioManager.instance.Play("PlayerCollision");
-        isCollision();
-        isDied(IsAlive);
+        StartCoroutine(IsCollision());
+        StartCoroutine(IsDied(IsAlive));
     }
 
-    public async void TakeHealth(float health)
+    public void TakeHealth(float health)
+    {
+        StartCoroutine(IsTakeHealth(health));
+    }
+    IEnumerator IsTakeHealth(float health)
     {
         currentHealth += health;
         if (currentHealth > maxHealth)
             currentHealth = maxHealth;
         anim.SetBool("isHealth", true);
-        await Task.Delay(700);
+        yield return new WaitForSeconds(1f);
         anim.SetBool("isHealth", false);       
     }
 
-    public async void isDied(bool isAlive)
+    IEnumerator IsDied(bool isAlive)
     {
         if (!isAlive)
         {
@@ -103,7 +96,7 @@ public class HealthPlayer : MonoBehaviour
                 gameM.gamePlayersLifes--;
             gameObjectPI.enabled = false;
             rbPlayer.gravityScale = -0.01f;
-            await Task.Delay(1000);
+            yield return new WaitForSeconds(1f);
             gameObject.SetActive(false);
             if(gameM.gamePlayersLifes == 0)
                 gameOverOverPanel.SetActive(true);
@@ -112,20 +105,35 @@ public class HealthPlayer : MonoBehaviour
         }
     }
 
-    private async void isFinished()
+    IEnumerator IsFinished()
     {
         AudioManager.instance.Play("FinishGame");
         anim.SetTrigger("isFinished");
         gameObjectPI.enabled = false;
-        await Task.Delay(1000);
+        yield return new WaitForSeconds(1f);
         gameObject.SetActive(false);
         nextLevelPanel.SetActive(true);
     }
 
-    public async void isPlusLife()
+    public void isPlusLife()
+    {
+        StartCoroutine(PlusLife());
+    }
+    IEnumerator PlusLife()
     {
         plusLife.SetActive(true);
-        await Task.Delay(1000);
+        yield return new WaitForSeconds(1f);
         plusLife.SetActive(false);
+    }
+
+    IEnumerator IsCollision()
+    {
+        srPlayer.color = new Color(1, 1, 1, 0.5f);
+        yield return new WaitForSeconds(.4f);
+        srPlayer.color = new Color(1, 1, 1, 1);
+        yield return new WaitForSeconds(.3f);
+        srPlayer.color = new Color(1, 1, 1, 0.5f);
+        yield return new WaitForSeconds(.3f);
+        srPlayer.color = new Color(1, 1, 1, 1);
     }
 }

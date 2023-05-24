@@ -4,7 +4,8 @@ using System.Threading.Tasks;
 using UnityEngine;
 
 public class HealthDealer : MonoBehaviour
-{ 
+{
+
     [SerializeField] private GameObject gameManager;
     [SerializeField] private float health;
 
@@ -24,7 +25,7 @@ public class HealthDealer : MonoBehaviour
 
             if (gameObject.CompareTag("LifeBonus"))
             {
-                gameM.gamePlayersLifes++;
+                gameM.AddLife();
                 collision.gameObject.GetComponent<HealthPlayer>().isPlusLife();
             }
 

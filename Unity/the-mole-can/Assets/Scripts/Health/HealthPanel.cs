@@ -12,10 +12,13 @@ public class HealthPanel : MonoBehaviour
     private float currentHealth;
     private float maxHealth;
 
+    private Color startColor;
+
     private void Awake()
     {
         healthObj = gameObj.GetComponent<HealthObj>();
         hpColor = GetComponent<Image>();
+        startColor = hpColor.color;
     }
     private void Update()
     {
@@ -26,6 +29,6 @@ public class HealthPanel : MonoBehaviour
         if (currentHealth <= maxHealth / 2)
             hpColor.color = Color.yellow;
         else
-            hpColor.color = Color.green;
+            hpColor.color = startColor;
     }
 }
